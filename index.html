@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Georama:wght@200;300;500&amp;display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	
+	<title>Music Player</title>
+</head>
+<body>
+	<!-- <script src="app.js"></script> -->
+	<div class="section">
+		<!-- Music Card -->	
+		<div class="section__background">
+			<img id="backgroundImage" class="section__background-image" src="./img/no5.jpg" alt="">
+		</div>			
+		<div class="music-card__wrapper">
+		    <div class="music-card">
+			  <div class="music-card__content">
+				<img class="music-image" src="./img/no5.jpg" alt="">
+				<div class="music-info">
+				    <h2 class="music-name">Happy birthday to you </h2>
+				    <p class="music-artist">Amee - Hoàng Dũng - Obito</p>
+				</div>
+				<audio src="./audio/HappyBirthdayToYou.mp3"></audio>
+				<div class="music-progress">
+				    <div id="progress-bar" class="music-progress-bar"></div>
+				    <div class="music-progress__time">
+					  <span class="music-progress__time-item music-current-time">00:00</span>
+					  <span class="music-progress__time-item music-duration-time">00:00</span>
+				    </div>
+				</div>
+				<div class="music-controls">
+				    <div id="prev" class="music-controls-item">
+					  <i class="fas fa-backward music-controls-item--icon"></i>
+				    </div>
+    
+				    <div id="play" class="music-controls-item">
+					  <i class="fas fa-play music-controls-item--icon play-icon"></i>
+					  <div class="play-icon-background"></div>
+				    </div>						
+    
+				    <div id="next" class="music-controls-item">
+					  <i class="fas fa-forward music-controls-item--icon"></i>
+				    </div>
+				</div>
+			  </div>
+		    </div>
+		</div>
+		Lyrics
+		<div class="music-card__lyrics">
+			<div class="music-card__panel">	
+				</br>
+				</br>
+				<h5>HAPPY BIRTHDAY Bích Trâm, </h5>
+				</br>
+				<h5>Lời đầu tiên chào đón bạn đến với gia đình Online Training và cảm ơn bạn với những đóng góp tích cực của bạn trong thời gian vừa qua và chúng mình cùng phát triển và phát huy tinh thần “Pay It Forward” của chương trình nhé.</h5>
+				</br>
+				<h5>Một ngày yêu thương, một ngày đặc biệt. Support team chúc Bích Trâm sinh nhật vui vẻ. Chúng mình hi vọng tuổi mới bạn sẽ có thật nhiều niềm vui, xinh tươi hơn, luôn lạc quan và đạt được nhiều thành tựu. Bích Trâm là một cô gái mạnh mẽ, tốt bụng, có cá tính riêng và hi vọng bạn sẽ luôn giữ được tinh thần như vậy nhé. </h5>
+				</br>
+				<h5>Và một điều nữa, chúc bạn sẽ có một năm hoạt động thành công với Online Training. Chúng mình hi vọng hôm nay sẽ là một ngày bắt đầu cho một năm tuyệt vời của Trâm nha. </h5>
+				</br>
+				<h5>Happy birthday Bích Trâm, </h5>
+				</br>
+				<h5>Thân ái,</h5>
+				</br>
+				<h5>Support team.</h5>
+			</div>
+		</div>	
+	</div>
+</body>
+	<script src="./app.js"></script>
+</html>
